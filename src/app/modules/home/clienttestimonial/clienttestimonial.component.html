@@ -1,25 +1,25 @@
 <section class="testomonial pb-5 mt-5">
   <div class="container pt-5 pb-5" >
     <div class="row pt-5 mt-4 text-white">
-      <div class="col-md-3" style="cursor: pointer;" (click)="showcontent1()">
-        <div class="padddes">
+      <div class="col-md-3" style="cursor: pointer;"  (click)="showcontent1()">
+        <div class="padddes" [ngClass]="showdiv1 ? 'bordermark' : 'removeborder'">
           <label>
             The Steel Store Online Steel Marketplace of USA & Canada
           </label>
         </div>
       </div>
       <div class="col-md-3" style="cursor: pointer;" (click)="showcontent2()">
-        <div class="padddes">
+        <div class="padddes" [ngClass]="showdiv2 ? 'bordermark' : 'removeborder'">
           <label>What Makes Us Stand Out As A Leading Steel Distributor </label>
         </div>
       </div>
       <div class="col-md-3" style="cursor: pointer;" (click)="showcontent3()">
-        <div class="padddes">
+        <div class="padddes" [ngClass]="showdiv3 ? 'bordermark' : 'removeborder'">
           <label>USA's Top Steel Supplier & Distributor </label>
         </div>
       </div>
       <div class="col-md-3" style="cursor: pointer;" (click)="showcontent4()">
-        <div class="padddes">
+        <div class="padddes" [ngClass]="showdiv4 ? 'bordermark' : 'removeborder'">
           <label
             >The Steel Store - The Best Steel Service Centers in USA & Canada
           </label>
