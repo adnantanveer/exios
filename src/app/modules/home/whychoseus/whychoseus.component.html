@@ -1,0 +1,60 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-5 text-center mb-4">
+                <h3 class="whychossetxt">Why Choose Us?</h3>
+            </div>
+            <div class="col-md-3" *ngFor="let reason of choosing">
+                <div class="circlebg">
+                    <div class="imgdes">
+                        <img class ="w-100 h-100" src="{{reason.imgsrc}}" />
+                    </div>
+                </div>
+            <h2 class="heading mt-2">{{reason.heading}}</h2>
+                <p class="des mt-2">{{reason.des}}</p>
+            </div>
+        </div>
+        <div class="row my-5 ">
+            <div class="col-md-12 pt-5 d-flex justify-content-center">
+              <a class="viewbtn"
+                >Know more
+                <img src="../../../../assets/images/light arrow.png" />
+              </a>
+            </div>
+          </div>
+    </div>
+</section>
+
+<section class="count py-5">
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="iconcircle">
+                    <img src="../../../../assets/images/inventory.png" />
+                </div>
+                <div class="mt-2">
+                    <label class="d-block counttxt mb-0">5,171</label>
+                    <label class="destxt">Total Inventory</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="iconcircle">
+                    <img src="../../../../assets/images/totalinv.png" />
+                </div>
+                <div class="mt-2">
+                    <label class="d-block counttxt mb-0">54,327</label>
+                    <label class="destxt">Total Weight(tons)</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="iconcircle">
+                    <img src="../../../../assets/images/value.png" />
+                </div>
+                <div class="mt-2">
+                    <label class="d-block counttxt mb-0">43,462,393</label>
+                    <label class="destxt">Inventory Value ($)</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

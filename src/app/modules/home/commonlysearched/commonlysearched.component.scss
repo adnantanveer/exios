@@ -1,0 +1,41 @@
+.commonly-searched{
+    .headtext{
+        font-family: VAGRounded;
+        font-size: 52px;
+        font-weight: 300;
+        
+        letter-spacing: 2.08px;
+        color: #3e3e3e;
+    }
+    .bordergh{
+        border: 4px dotted gray;
+        background-clip: padding-box;
+        position: relative;
+        z-index: 1;
+    }
+    
+    table{
+        border-collapse:collapse;
+        tr,th,td{
+            border: none;
+        }
+        tr{
+            vertical-align: middle;
+            th,td{
+                vertical-align: middle;
+                text-align: center;
+                font-family: VAGRounded;
+                font-size: 18px;
+                font-weight: 300;
+
+             
+                letter-spacing: 0.72px;
+                color: #36bebe;
+            }
+            
+        }
+        tr:nth-child(even) {background:#f9f9f9}
+
+    }
+
+}
