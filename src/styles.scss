@@ -1,12 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+      font-family: VAGRounded;
+      src: url(./assets/font/VAG-Rounded-Std-Light_47298.ttf );
+    }
+    @font-face {
+      font-family: VGARoundedThin;
+      src: url(./assets/font/VAG-Rounded-Std-Thin_47299.ttf );
+    }
+    @font-face {
+      font-family: VgaRoundedBold;
+      src: url(./assets/font/VAG-Rounded-Std-Bold_47297.ttf);
+    }
+
+
+
 html,
 body {
   height: 100%;
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: VGARoundedThin, 
 }
 
 :focus{

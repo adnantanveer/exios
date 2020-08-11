@@ -13,4 +13,14 @@
             cursor: pointer;
         }
     }
+    .bordermark{
+        border: 10px solid transparent;
+        border-image: url(../../../../assets/images/boder2.png) ;  
+    
+    
+        /* height: 148px; */
+        /* border-image-slice: 26; */
+        border-image-slice: 63;
+        border-image-width: 65px;
+    }
 }

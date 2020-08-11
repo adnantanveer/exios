@@ -8,10 +8,14 @@
         color: #3e3e3e;
     }
     .bordergh{
-        border: 4px dotted gray;
-        background-clip: padding-box;
-        position: relative;
-        z-index: 1;
+        // background-image: url(../../../../assets/images/tableborder.png);
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        border: 15px solid transparent;
+        border-image: url(../../../../assets/images/tableborder.png) 9 round;
+
+
+    
     }
     
     table{
