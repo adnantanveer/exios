@@ -12,6 +12,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatSelectModule} from '@angular/material/select';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   declarations: [HomewraperComponent, BannerComponent, SearchproductComponent, WhychoseusComponent, CommonlysearchedComponent, ClienttestimonialComponent],
@@ -21,6 +22,9 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     MatSelectModule,
     HomeRoutingModule,
     CarouselModule,
-  ]
+    SharedModule,
+  ],
+
+
 })
 export class HomeModule { }

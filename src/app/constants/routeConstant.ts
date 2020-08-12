@@ -1,5 +1,4 @@
 export const RouteConstant = {
-    
     aboutUs : "about-us",
     privacyPolicy: "privacy-policy",
     termsAndCondtions: "terms-and-condtion",
@@ -11,7 +10,6 @@ export const RouteConstant = {
     resetpassword:"reset-password",
     contactUs: "contact-us",
     faq: "faq",
-
   }
 
  
