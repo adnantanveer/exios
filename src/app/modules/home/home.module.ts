@@ -12,9 +12,10 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatSelectModule} from '@angular/material/select';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
-  declarations: [HomewraperComponent, BannerComponent, SearchproductComponent, WhychoseusComponent, CommonlysearchedComponent, ClienttestimonialComponent],
+  declarations: [HomewraperComponent, BannerComponent, SearchproductComponent, WhychoseusComponent, CommonlysearchedComponent, ClienttestimonialComponent, ContactusComponent],
   imports: [
     CommonModule,
     NgbModule ,
