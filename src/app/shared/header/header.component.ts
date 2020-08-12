@@ -17,5 +17,10 @@ export class HeaderComponent implements OnInit {
     return this.router.url !== '/';
 
   }
+  isHomeRoute(){
+    return this.router.url === '/';
+
+  }
+
 
 }
