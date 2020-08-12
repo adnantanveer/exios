@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-clienttestimonial',
@@ -45,6 +46,31 @@ export class ClienttestimonialComponent implements OnInit {
     this.showdiv4= true;
 
   }
-  
+  customOptions: OwlOptions = {
+    loop: true,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: false,
+    dots: true,
+    autoplay:true,
+
+    navSpeed: 100,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      740: {
+        items: 3
+      },
+      940: {
+        items: 2
+      }
+    },
+    nav: true
+  }
 
 }

@@ -11,6 +11,7 @@ import { ClienttestimonialComponent } from './clienttestimonial/clienttestimonia
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatSelectModule} from '@angular/material/select';
 
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [HomewraperComponent, BannerComponent, SearchproductComponent, WhychoseusComponent, CommonlysearchedComponent, ClienttestimonialComponent],
@@ -18,7 +19,8 @@ import {MatSelectModule} from '@angular/material/select';
     CommonModule,
     NgbModule ,
     MatSelectModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    CarouselModule,
   ]
 })
 export class HomeModule { }
