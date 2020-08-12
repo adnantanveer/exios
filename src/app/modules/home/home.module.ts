@@ -12,16 +12,19 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatSelectModule} from '@angular/material/select';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { ContactusComponent } from './contactus/contactus.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
-  declarations: [HomewraperComponent, BannerComponent, SearchproductComponent, WhychoseusComponent, CommonlysearchedComponent, ClienttestimonialComponent, ContactusComponent],
+  declarations: [HomewraperComponent, BannerComponent, SearchproductComponent, WhychoseusComponent, CommonlysearchedComponent, ClienttestimonialComponent],
   imports: [
     CommonModule,
     NgbModule ,
     MatSelectModule,
     HomeRoutingModule,
     CarouselModule,
-  ]
+    SharedModule,
+  ],
+
+
 })
 export class HomeModule { }

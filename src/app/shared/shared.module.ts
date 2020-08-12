@@ -10,15 +10,19 @@ import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent, FoterComponent, PublicComponent, SecureComponent, AboutComponent, FaqComponent, PrivacyComponent],
+  declarations: [HeaderComponent, FoterComponent, PublicComponent, SecureComponent, AboutComponent, FaqComponent, PrivacyComponent, ContactusComponent],
   imports: [
     CommonModule,
     SharedRoutingModule,
     MatExpansionModule
+  ],
+  exports: [
+    ContactusComponent
   ]
 })
 export class SharedModule { }
