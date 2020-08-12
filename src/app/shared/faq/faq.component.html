@@ -19,8 +19,8 @@
                     <img class="w-100" src="../../../assets/images/FAQs-Cont.png">
                 </div>
 
-                <div class="col-md-6" *ngFor="let faq of faqlist">
-                    <mat-expansion-panel>
+                <div class="col-md-6">
+                    <mat-expansion-panel *ngFor="let faq of faqlist">
                         <mat-expansion-panel-header>
                             <mat-panel-title>
                                 {{faq.title}}
