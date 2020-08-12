@@ -1,50 +1,50 @@
-ngb-carousel{
-    img{
+ngb-carousel {
+    img {
         height: 550px;
         object-fit: cover;
     }
-
-    .carousel-caption{
+    .carousel-caption {
         top: 13%;
         bottom: unset;
         left: 24%;
-        h3{
+        h3 {
             font-family: VAGRounded;
             font-size: 58.5px;
             font-weight: 300;
-        
             letter-spacing: 2.34px;
             text-align: left;
             text-align: center;
             color: #1c1c1c;
-            span{
+            span {
                 font-family: VgaRoundedBold;
-
             }
         }
-        .explorebtn{
+        .explorebtn {
             a {
                 font-family: VAGRounded;
                 font-size: 20.5px;
                 font-weight: 300;
-              
                 letter-spacing: 0.82px;
                 color: #1c1c1c;
-                img{
+                img {
                     height: 30px;
-
                 }
             }
         }
-        p{
-            font-size: 25px;
+        p {
+            font-size: 18px;
             font-weight: 300;
             text-align: center;
-          
-        
             letter-spacing: 1px;
             color: #1c1c1c;
         }
-        
     }
+}
+
+.viewbtn {
+    font-family: VAGRounded;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.82px;
+    color: #5bd8d8;
 }
