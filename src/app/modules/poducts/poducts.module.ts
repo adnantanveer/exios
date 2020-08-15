@@ -10,14 +10,19 @@ import { ColdRollComponent } from './cold-roll/cold-roll.component';
 import { ElectrogalvanizedComponent } from './electrogalvanized/electrogalvanized.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { GalvalenalComponent } from './galvalenal/galvalenal.component';
+import { ProductfiltersComponent } from './productfilters/productfilters.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { Ng5SliderModule } from 'ng5-slider';
 
 @NgModule({
-  declarations: [ProductmainwraaperComponent, GalvanizedComponent, GalvalumeComponent, HotrollComponent, ColdRollComponent, ElectrogalvanizedComponent, GalvalenalComponent],
+  declarations: [ProductmainwraaperComponent, GalvanizedComponent, GalvalumeComponent, HotrollComponent, ColdRollComponent, ElectrogalvanizedComponent, GalvalenalComponent, ProductfiltersComponent],
   imports: [
     CommonModule,
     SharedModule,
-    PoductsRoutingModule
+    PoductsRoutingModule,
+    NgbModule,
+    Ng5SliderModule
   ]
 })
 export class PoductsModule { }
