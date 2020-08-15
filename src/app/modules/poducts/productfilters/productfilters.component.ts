@@ -8,7 +8,7 @@ import { Options } from 'ng5-slider';
   styleUrls: ['./productfilters.component.scss']
 })
 export class ProductfiltersComponent implements OnInit {
-
+  morefilter = false;
   constructor() { }
   value: number = 40;
   highValue: number = 60;
@@ -17,6 +17,10 @@ export class ProductfiltersComponent implements OnInit {
     ceil: 100
   };
   ngOnInit(): void {
+  }
+
+  showmorefilters(){
+    this.morefilter = true;
   }
 
 }

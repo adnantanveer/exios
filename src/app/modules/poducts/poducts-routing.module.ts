@@ -6,6 +6,7 @@ import { GalvalumeComponent } from './galvalume/galvalume.component';
 import { HotrollComponent } from './hotroll/hotroll.component';
 import { ColdRollComponent } from './cold-roll/cold-roll.component';
 import { GalvalenalComponent } from './galvalenal/galvalenal.component';
+import { DetailsComponent } from './details/details.component';
 
 
 const routes: Routes = [
@@ -40,8 +41,14 @@ const routes: Routes = [
     },{
       path: 'electro-galvanized',
       component: GalvanizedComponent
-    }
-  ]
+    },
+ 
+  ],
+ 
+},
+{
+  path: ':details',
+  component: DetailsComponent  
 }
 
 ];

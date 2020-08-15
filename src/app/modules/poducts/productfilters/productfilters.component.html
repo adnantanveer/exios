@@ -69,18 +69,21 @@
           </button>
           <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="w-100">
             <div class="p-4">
-              <ng5-slider [(value)]="value" [(highValue)]="highValue" [options]="options"></ng5-slider>
-
+              <ng5-slider
+                [(value)]="value"
+                [(highValue)]="highValue"
+                [options]="options"
+              ></ng5-slider>
             </div>
             <div class="d-flex justify-content-between p-4">
               <div class="mr-3">
-                  <input type="number" name="" id="" class="form-control">
+                <input type="number" name="" id="" class="form-control" />
               </div>
               <div>
-                  <input type="number" name="" id="" class="form-control" >
+                <input type="number" name="" id="" class="form-control" />
               </div>
             </div>
-        </div>
+          </div>
         </div>
       </div>
       <div class="col-md-3">
@@ -94,18 +97,136 @@
           </button>
           <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="w-100">
             <div class="p-4">
-              <ng5-slider [(value)]="value" [(highValue)]="highValue" [options]="options"></ng5-slider>
-
+              <ng5-slider
+                [(value)]="value"
+                [(highValue)]="highValue"
+                [options]="options"
+              ></ng5-slider>
             </div>
             <div class="d-flex justify-content-between p-4">
               <div class="mr-3">
-                  <input type="number" name="" id="" class="form-control">
+                <input type="number" name="" id="" class="form-control" />
               </div>
               <div>
-                  <input type="number" name="" id="" class="form-control" >
+                <input type="number" name="" id="" class="form-control" />
               </div>
             </div>
+          </div>
         </div>
+      </div>
+     
+    </div>
+    <div class="row my-4" *ngIf="morefilter">
+      <div class="col-md-3">
+        <div ngbDropdown class="d-inline-block w-100">
+          <button
+            class="btn form-control btn-filter"
+            id="dropdownBasic1"
+            ngbDropdownToggle
+          >
+            Grade
+          </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="w-100">
+            <div class="p-4">
+              <ng5-slider
+                [(value)]="value"
+                [(highValue)]="highValue"
+                [options]="options"
+              ></ng5-slider>
+            </div>
+            <div class="d-flex justify-content-between p-4">
+              <div class="mr-3">
+                <input type="number" name="" id="" class="form-control" />
+              </div>
+              <div>
+                <input type="number" name="" id="" class="form-control" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div ngbDropdown class="d-inline-block w-100">
+          <button
+            class="btn form-control btn-filter"
+            id="dropdownBasic1"
+            ngbDropdownToggle
+          >
+            Coating
+          </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="w-100">
+            <div class="p-4">
+              <ng5-slider
+                [(value)]="value"
+                [(highValue)]="highValue"
+                [options]="options"
+              ></ng5-slider>
+            </div>
+            <div class="d-flex justify-content-between p-4">
+              <div class="mr-3">
+                <input type="number" name="" id="" class="form-control" />
+              </div>
+              <div>
+                <input type="number" name="" id="" class="form-control" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div ngbDropdown class="d-inline-block w-100">
+          <button
+            class="btn form-control btn-filter"
+            id="dropdownBasic1"
+            ngbDropdownToggle
+          >
+            Black
+          </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="w-100">
+            <div class="p-4">
+              <ng5-slider
+                [(value)]="value"
+                [(highValue)]="highValue"
+                [options]="options"
+              ></ng5-slider>
+            </div>
+            <div class="d-flex justify-content-between p-4">
+              <div class="mr-3">
+                <input type="number" name="" id="" class="form-control" />
+              </div>
+              <div>
+                <input type="number" name="" id="" class="form-control" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div ngbDropdown class="d-inline-block w-100">
+          <button
+            class="btn form-control btn-filter"
+            id="dropdownBasic1"
+            ngbDropdownToggle
+          >
+            Paint Vedor
+          </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="w-100">
+            <div class="p-4">
+              <ng5-slider
+                [(value)]="value"
+                [(highValue)]="highValue"
+                [options]="options"
+              ></ng5-slider>
+            </div>
+            <div class="d-flex justify-content-between p-4">
+              <div class="mr-3">
+                <input type="number" name="" id="" class="form-control" />
+              </div>
+              <div>
+                <input type="number" name="" id="" class="form-control" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -116,7 +237,7 @@
           <a class="clear-filter">Clear filter</a>
         </div>
         <div>
-          <a class="more-filter">More filters</a>
+          <a class="more-filter" (click)="showmorefilters()">More filters</a>
         </div>
       </div>
     </div>
