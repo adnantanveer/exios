@@ -1,5 +1,5 @@
 .testomonial {
-    background-image: url("../../../../assets/images/bgblavk.png");
+    background-image: url("/assets/images/bgblavk.png");
     background-size: cover;
     h4 {
         font-size: 22px;
@@ -14,7 +14,7 @@
     }
     .bordermark {
         border: 10px solid transparent;
-        border-image: url(../../../../assets/images/boder2.png);
+        border-image: url(/assets/images/boder2.png);
         /* height: 148px; */
         /* border-image-slice: 26; */
         border-image-slice: 63;

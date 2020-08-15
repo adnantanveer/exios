@@ -12,21 +12,21 @@
 <section class="header py-3" *ngIf="isHomeRoute()">
   <div class="container">
     <div class="row d-flex justify-content-between align-items-center m-0">
-      <div class="logo">
+      <div class="logo" routerLink="/" routerLinkActive="active">
         <img src="../../../assets/images/eoxs copy.svg" alt="" />
       </div>
       <div class="nav">
         <ul type="none" class="d-flex">
-          <li>
+          <li routerLink="/about" routerLinkActive="active">
             About
           </li>
           <li>
             Blog
           </li>
-          <li>
+          <li routerLink="/steel" routerLinkActive="active">
             Products
           </li>
-          <li>
+          <li >
             Contact Us
           </li>
         </ul>
@@ -43,18 +43,18 @@
 <section class="header2 py-3 " *ngIf="isnotHomeRoute()">
   <div class="container-fluid">
     <div class="row d-flex justify-content-between align-items-center m-0">
-      <div class="logo">
+      <div class="logo" routerLink="/" routerLinkActive="active">
         <img src="../../../assets/images/eoxs copy.svg" alt="" />
       </div>
       <div class="nav">
         <ul type="none" class="d-flex">
-          <li>
+          <li routerLink="/about" routerLinkActive="active">
             About
           </li>
           <li>
             Blog
           </li>
-          <li>
+          <li routerLink="/steel" routerLinkActive="active">
             Products
           </li>
           <li>
