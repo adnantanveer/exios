@@ -30,7 +30,12 @@ export const PUBLIC_ROUTES: Routes = [
   {
     path: RouteConstant.privacyPolicy,
     component: PrivacyComponent
-  }
+  },  
+  {
+    path: "",
+     loadChildren: () =>
+       import("../../modules/other/other.module").then((m) => m.OtherModule),
+ },
 
   
   

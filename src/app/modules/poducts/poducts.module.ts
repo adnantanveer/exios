@@ -15,6 +15,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { Ng5SliderModule } from 'ng5-slider';
 import { DetailsComponent } from './details/details.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { DetailsComponent } from './details/details.component';
     SharedModule,
     PoductsRoutingModule,
     NgbModule,
-    Ng5SliderModule
+    MatTabsModule,
+    Ng5SliderModule,
+    MatExpansionModule
   ]
 })
 export class PoductsModule { }
