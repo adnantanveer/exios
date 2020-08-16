@@ -20,6 +20,11 @@ export const PUBLIC_ROUTES: Routes = [
    import("../../modules/poducts/poducts.module").then((m) => m.PoductsModule),
  },
  {
+  path: '',
+  loadChildren: () =>
+  import("../../modules/other/other.module").then((m) => m.OtherModule),
+},
+ {
     path: RouteConstant.aboutUs,
     component: AboutComponent
   },

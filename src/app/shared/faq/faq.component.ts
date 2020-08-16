@@ -13,30 +13,36 @@ export class FaqComponent implements OnInit {
       descriptiondetail:'We sell prime, excess prime, and secondary industrial materials. Our prime material comes from the original manufacturers. We buy direct from vetted and approved global manufacturers. Our excess prime is also prime material and it comes from our large “circulating” supplier base. This is material for which its current owner doesn'
     },
     {
-      title:'What is TheSteelStore?',
+      title:'Why this website?',
       description: 'What do you sell?',
       descriptiondetail:'We sell prime, excess prime, and secondary industrial materials. Our prime material comes from the original manufacturers. We buy direct from vetted and approved global manufacturers. Our excess prime is also prime material and it comes from our large “circulating” supplier base. This is material for which its current owner doesn'
     },
     {
-      title:'What is TheSteelStore?',
+      title:'How do you make money?',
       description: 'What do you sell?',
       descriptiondetail:'We sell prime, excess prime, and secondary industrial materials. Our prime material comes from the original manufacturers. We buy direct from vetted and approved global manufacturers. Our excess prime is also prime material and it comes from our large “circulating” supplier base. This is material for which its current owner doesn'
     },
     {
-      title:'What is TheSteelStore?',
+      title:'How is delivery done?',
       description: 'What do you sell?',
       descriptiondetail:'We sell prime, excess prime, and secondary industrial materials. Our prime material comes from the original manufacturers. We buy direct from vetted and approved global manufacturers. Our excess prime is also prime material and it comes from our large “circulating” supplier base. This is material for which its current owner doesn'
     },
     {
-      title:'What is TheSteelStore?',
+      title:'How is freight price calculated?',
       description: 'What do you sell?',
       descriptiondetail:'We sell prime, excess prime, and secondary industrial materials. Our prime material comes from the original manufacturers. We buy direct from vetted and approved global manufacturers. Our excess prime is also prime material and it comes from our large “circulating” supplier base. This is material for which its current owner doesn'
     },
     {
-      title:'What is TheSteelStore?',
+      title:'Acceptable payment methods',
       description: 'What do you sell?',
       descriptiondetail:'We sell prime, excess prime, and secondary industrial materials. Our prime material comes from the original manufacturers. We buy direct from vetted and approved global manufacturers. Our excess prime is also prime material and it comes from our large “circulating” supplier base. This is material for which its current owner doesn'
     },
+    {
+      title:'What are your terms',
+      description: 'What do you sell?',
+      descriptiondetail:'We sell prime, excess prime, and secondary industrial materials. Our prime material comes from the original manufacturers. We buy direct from vetted and approved global manufacturers. Our excess prime is also prime material and it comes from our large “circulating” supplier base. This is material for which its current owner doesn'
+    },
+    
    
     ]
 
