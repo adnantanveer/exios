@@ -14,8 +14,9 @@ import { ContactusComponent } from './contactus/contactus.component';
 
 
 
+
 @NgModule({
-  declarations: [HeaderComponent, FoterComponent, PublicComponent, SecureComponent, AboutComponent, FaqComponent, PrivacyComponent, ContactusComponent],
+  declarations: [HeaderComponent, FoterComponent, PublicComponent, SecureComponent, AboutComponent, FaqComponent, PrivacyComponent,ContactusComponent],
   imports: [
     CommonModule,
     SharedRoutingModule,

@@ -9,6 +9,7 @@ import { GalvalenalComponent } from './galvalenal/galvalenal.component';
 import { DetailsComponent } from './details/details.component';
 
 
+
 const routes: Routes = [
 {
   path: '',
@@ -47,8 +48,8 @@ const routes: Routes = [
  
 },
 {
-  path: ':details',
-  component: DetailsComponent  
+  path: 'details',
+  component: DetailsComponent
 }
 
 ];

@@ -16,8 +16,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { Ng5SliderModule } from 'ng5-slider';
 import { DetailsComponent } from './details/details.component';
 
+
 @NgModule({
-  declarations: [ProductmainwraaperComponent, GalvanizedComponent, GalvalumeComponent, HotrollComponent, ColdRollComponent, ElectrogalvanizedComponent, GalvalenalComponent, ProductfiltersComponent, DetailsComponent],
+  declarations: [ProductmainwraaperComponent, GalvanizedComponent, GalvalumeComponent, HotrollComponent, ColdRollComponent, ElectrogalvanizedComponent, GalvalenalComponent, ProductfiltersComponent,DetailsComponent],
   imports: [
     CommonModule,
     SharedModule,

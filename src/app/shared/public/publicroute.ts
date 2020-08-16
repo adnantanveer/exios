@@ -13,11 +13,7 @@ export const PUBLIC_ROUTES: Routes = [
      loadChildren: () =>
        import("../../modules/home/home.module").then((m) => m.HomeModule),
  },
- {
-  path: "",
-   loadChildren: () =>
-     import("../../modules/other/other.module").then((m) => m.OtherModule),
-},
+
  {
    path: 'steel',
    loadChildren: () =>
