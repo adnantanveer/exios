@@ -22,5 +22,9 @@ export class ProductfiltersComponent implements OnInit {
   showmorefilters(){
     this.morefilter = true;
   }
+  lessfilters(){
+    this.morefilter = false;
+
+  }
 
 }

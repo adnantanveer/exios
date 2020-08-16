@@ -237,7 +237,9 @@
           <a class="clear-filter">Clear filter</a>
         </div>
         <div>
-          <a class="more-filter" (click)="showmorefilters()">More filters</a>
+          <a class="more-filter" *ngIf="!morefilter" (click)="showmorefilters()">More filters</a>
+          <a class="more-filter" *ngIf="morefilter" (click)="lessfilters()">Less filters</a>
+
         </div>
       </div>
     </div>
