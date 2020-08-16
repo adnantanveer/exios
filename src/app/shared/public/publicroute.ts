@@ -13,6 +13,12 @@ export const PUBLIC_ROUTES: Routes = [
      loadChildren: () =>
        import("../../modules/home/home.module").then((m) => m.HomeModule),
  },
+
+ {
+   path: 'steel',
+   loadChildren: () =>
+   import("../../modules/poducts/poducts.module").then((m) => m.PoductsModule),
+ },
  {
     path: RouteConstant.aboutUs,
     component: AboutComponent

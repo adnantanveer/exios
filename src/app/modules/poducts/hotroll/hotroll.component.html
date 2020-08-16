@@ -1,0 +1,36 @@
+<app-productfilters></app-productfilters>
+
+
+<section class="producttable">
+    <div class="container">
+        <div class="row mt-5 pt-3 mb-4">
+            
+            <div class="col-md-12">
+                <div class="table-responsive bordergh crochet p-3">
+                    <table class="table">
+                        <tr>
+                            <th>Product</th>
+                            <th>Quality</th>
+                            <th>Thickness(in)</th>
+                            <th>Width(in)</th>
+                            <th>Weight(in)</th>
+                            <th>PIW</th>
+                            <th>Location</th>
+                            <th>Coilnumber</th>
+                        </tr>
+                        <tr *ngFor="let elements of hotroll">
+                            <td>{{ elements.product }}</td>
+                            <td>{{ elements.quality }}</td>
+                            <td>{{ elements.thickness }}</td>
+                            <td>{{ elements.width }}</td>
+                            <td>{{ elements.weight }}</td>
+                            <td>{{ elements.piw }}</td>
+                            <td>{{ elements.location }}</td>
+                            <td>{{ elements.coilnumber }}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

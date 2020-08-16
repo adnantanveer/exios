@@ -1,5 +1,5 @@
 .testomonial {
-    background-image: url("../../../../assets/images/bgblavk.png");
+    background-image: url("/assets/images/bgblavk.png");
     background-size: cover;
     h4 {
         font-size: 22px;
@@ -14,7 +14,7 @@
     }
     .bordermark {
         border: 10px solid transparent;
-        border-image: url(../../../../assets/images/boder2.png);
+        border-image: url(/assets/images/boder2.png);
         /* height: 148px; */
         /* border-image-slice: 26; */
         border-image-slice: 63;
@@ -36,7 +36,7 @@
         position: relative;
         img {
             position: absolute;
-            opacity: 0.4;
+            opacity: 1;
         }
     }
     .testtext {
@@ -45,6 +45,7 @@
         top: 125px;
         left: 85px;
         max-width: 300px;
+        
         h4 {
             font-size: 20px;
             font-weight: 600;
