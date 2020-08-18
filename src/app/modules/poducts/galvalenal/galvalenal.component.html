@@ -17,8 +17,9 @@
                             <th>PIW</th>
                             <th>Location</th>
                             <th>Coilnumber</th>
+                            <th>Action</th>
                         </tr>
-                        <tr *ngFor="let elements of galvaneal">
+                        <tr *ngFor="let elements of galvaneal" data-aos="fade-up" data-aos-anchor-placement="bottom-center"> 
                             <td>{{ elements.product }}</td>
                             <td>{{ elements.quality }}</td>
                             <td>{{ elements.thickness }}</td>
@@ -27,6 +28,11 @@
                             <td>{{ elements.piw }}</td>
                             <td>{{ elements.location }}</td>
                             <td>{{ elements.coilnumber }}</td>
+                            <td>
+                                <div class="enquiry-btn">
+                                    <button class="btn">Enquiry</button>
+                                </div>
+                            </td>
                         </tr>
                     </table>
                 </div>

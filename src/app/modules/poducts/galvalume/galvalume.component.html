@@ -4,7 +4,7 @@
 <section class="producttable">
     <div class="container">
         <div class="row mt-5 pt-3 mb-4">
-            
+
             <div class="col-md-12">
                 <div class="table-responsive bordergh crochet p-3">
                     <table class="table">
@@ -17,6 +17,7 @@
                             <th>PIW</th>
                             <th>Location</th>
                             <th>Coilnumber</th>
+                            <th>Action</th>
                         </tr>
                         <tr *ngFor="let elements of galvalume">
                             <td>{{ elements.product }}</td>
@@ -27,6 +28,11 @@
                             <td>{{ elements.piw }}</td>
                             <td>{{ elements.location }}</td>
                             <td>{{ elements.coilnumber }}</td>
+                            <td>
+                                <div class="enquiry-btn">
+                                    <button class="btn">Enquiry</button>
+                                </div>
+                            </td>
                         </tr>
                     </table>
                 </div>

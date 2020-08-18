@@ -17,6 +17,7 @@
                             <th>PIW</th>
                             <th>Location</th>
                             <th>Coilnumber</th>
+                            <th>Action</th>
                         </tr>
                         <tr *ngFor="let elements of ectrogalva">
                             <td>{{ elements.product }}</td>
@@ -27,6 +28,11 @@
                             <td>{{ elements.piw }}</td>
                             <td>{{ elements.location }}</td>
                             <td>{{ elements.coilnumber }}</td>
+                            <td>
+                                <div class="enquiry-btn">
+                                    <button class="btn">Enquiry</button>
+                                </div>
+                            </td>
                         </tr>
                     </table>
                 </div>

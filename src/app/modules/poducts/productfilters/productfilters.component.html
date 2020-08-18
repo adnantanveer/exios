@@ -1,7 +1,9 @@
 <section class="my-4 filter">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3"  data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <div ngbDropdown class="d-inline-block w-100">
           <button
             class="btn form-control btn-filter"
@@ -30,7 +32,9 @@
         </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3"  data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1800">
         <div ngbDropdown class="d-inline-block w-100">
           <button
             class="btn form-control btn-filter"
@@ -58,7 +62,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3"  data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="2000">
         <div ngbDropdown class="d-inline-block w-100">
           <button
             class="btn form-control btn-filter"
@@ -86,7 +92,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3"  data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="2500">
         <div ngbDropdown class="d-inline-block w-100">
           <button
             class="btn form-control btn-filter"
@@ -117,7 +125,9 @@
      
     </div>
     <div class="row my-4" *ngIf="morefilter">
-      <div class="col-md-3">
+      <div class="col-md-3"  data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="3000">
         <div ngbDropdown class="d-inline-block w-100">
           <button
             class="btn form-control btn-filter"
@@ -145,7 +155,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3"  data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <div ngbDropdown class="d-inline-block w-100">
           <button
             class="btn form-control btn-filter"
@@ -173,7 +185,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3"  data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <div ngbDropdown class="d-inline-block w-100">
           <button
             class="btn form-control btn-filter"
@@ -201,7 +215,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3"  data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <div ngbDropdown class="d-inline-block w-100">
           <button
             class="btn form-control btn-filter"
@@ -231,14 +247,20 @@
       </div>
     </div>
 
-    <div class="row pt-5 mt-4">
+    <div class="row pt-5 mt-4" >
       <div class="col-md-12 justify-content-center d-flex">
         <div class="mr-3">
-          <a class="clear-filter">Clear filter</a>
+          <a class="clear-filter"  data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500">Clear filter</a>
         </div>
         <div>
-          <a class="more-filter" *ngIf="!morefilter" (click)="showmorefilters()">More filters</a>
-          <a class="more-filter" *ngIf="morefilter" (click)="lessfilters()">Less filters</a>
+          <a class="more-filter"  data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500" *ngIf="!morefilter" (click)="showmorefilters()">More filters</a>
+          <a class="more-filter"  data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500" *ngIf="morefilter" (click)="lessfilters()">Less filters</a>
 
         </div>
       </div>
