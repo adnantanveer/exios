@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EnquirypopUpComponent } from 'src/app/shared/enquirypop-up/enquirypop-up.component';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-hotroll',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HotrollComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
   }
@@ -156,4 +158,17 @@ export class HotrollComponent implements OnInit {
 
     },
   ]
+
+  openDialogenquiry(): void {
+    const dialogRef = this.dialog.open(EnquirypopUpComponent, {
+      width: '250px',
+      data: {
+        
+      }
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
 }

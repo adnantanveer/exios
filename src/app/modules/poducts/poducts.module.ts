@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {MatDialogModule} from '@angular/material/dialog';
 
 import { PoductsRoutingModule } from './poducts-routing.module';
 import { ProductmainwraaperComponent } from './productmainwraaper/productmainwraaper.component';
@@ -28,7 +29,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     NgbModule,
     MatTabsModule,
     Ng5SliderModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDialogModule
   ]
 })
 export class PoductsModule { }
