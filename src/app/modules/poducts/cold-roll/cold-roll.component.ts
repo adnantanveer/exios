@@ -162,7 +162,7 @@ export class ColdRollComponent implements OnInit {
 
   openDialogenquiry(): void {
     const dialogRef = this.dialog.open(EnquirypopUpComponent, {
-      width: '250px',
+      height: '95vh',
       data: {
         
       }

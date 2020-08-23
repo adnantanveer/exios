@@ -12,22 +12,26 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { EnquirypopUpComponent } from './enquirypop-up/enquirypop-up.component';
+import { SignupComponent } from './signup/signup.component';
+import { SigninComponent } from './signin/signin.component';
 
 
 
 
 @NgModule({
-  declarations: [HeaderComponent, FoterComponent, PublicComponent, SecureComponent, AboutComponent, FaqComponent, PrivacyComponent,ContactusComponent, EnquirypopUpComponent],
+  declarations: [HeaderComponent, FoterComponent, PublicComponent, SecureComponent, AboutComponent, FaqComponent, PrivacyComponent,ContactusComponent, EnquirypopUpComponent, SignupComponent, SigninComponent],
   imports: [
     CommonModule,
     SharedRoutingModule,
-    MatExpansionModule
+    MatExpansionModule,
   ],
   exports: [
     ContactusComponent
   ],
   entryComponents: [
-    EnquirypopUpComponent
+    EnquirypopUpComponent,
+    SigninComponent,
+    SignupComponent
   ]
 })
 export class SharedModule { }

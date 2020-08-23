@@ -19,15 +19,15 @@
                             <th>Coilnumber</th>
                             <th>Action</th>
                         </tr>
-                        <tr *ngFor="let elements of galvaneal" data-aos="fade-up" data-aos-anchor-placement="bottom-center"> 
-                            <td>{{ elements.product }}</td>
-                            <td>{{ elements.quality }}</td>
-                            <td>{{ elements.thickness }}</td>
-                            <td>{{ elements.width }}</td>
-                            <td>{{ elements.weight }}</td>
-                            <td>{{ elements.piw }}</td>
-                            <td>{{ elements.location }}</td>
-                            <td>{{ elements.coilnumber }}</td>
+                        <tr *ngFor="let elements of galvaneal" > 
+                            <td routerLink="/steel/details">{{ elements.product }}</td>
+                            <td routerLink="/steel/details">{{ elements.quality }}</td>
+                            <td routerLink="/steel/details">{{ elements.thickness }}</td>
+                            <td routerLink="/steel/details">{{ elements.width }}</td>
+                            <td routerLink="/steel/details">{{ elements.weight }}</td>
+                            <td routerLink="/steel/details">{{ elements.piw }}</td>
+                            <td routerLink="/steel/details">{{ elements.location }}</td>
+                            <td routerLink="/steel/details">{{ elements.coilnumber }}</td>
                             <td>
                                 <div class="enquiry-btn">
                                     <button (click)=openDialogenquiry() class="btn">Enquiry</button>
