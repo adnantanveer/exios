@@ -77,3 +77,32 @@
     letter-spacing: 0.82px;
     color: #5bd8d8;
 }
+
+@media(max-width: 576px){
+    .testomonial {
+        .padddes {
+            padding: 8px;
+            label{
+                font-size: 10px;
+            }
+        }
+        h4{
+            font-size: 16px;
+        }
+    }
+    .col-3{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .testomonial2{
+        h3{
+            font-size: 26px;
+        }
+        
+    }
+    
+    
+}

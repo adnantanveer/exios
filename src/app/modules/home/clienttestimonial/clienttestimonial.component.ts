@@ -51,7 +51,7 @@ export class ClienttestimonialComponent implements OnInit {
     mouseDrag: true,
     touchDrag: true,
     pullDrag: false,
-    dots: true,
+    dots: false,
     autoplay:true,
 
     navSpeed: 100,
@@ -61,10 +61,10 @@ export class ClienttestimonialComponent implements OnInit {
         items: 1
       },
       400: {
-        items: 2
+        items: 1
       },
       740: {
-        items: 3
+        items: 2
       },
       940: {
         items: 2

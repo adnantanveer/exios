@@ -65,3 +65,23 @@
         }
     }
 }
+
+@media(max-width: 576px){
+    .contactform{
+        margin: 0 auto;
+        padding: 37px 25px!important;
+        h3{
+            font-size: 30px;
+        }
+        p{
+            font-size: 16px;
+        }
+        .btn-submit{
+            height: 60px;
+            font-size: 15px;
+        }
+    }
+    .contactus{
+        margin-bottom: 10px;
+    }
+}

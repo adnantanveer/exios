@@ -48,3 +48,22 @@ ngb-carousel {
     letter-spacing: 0.82px;
     color: #5bd8d8;
 }
+
+@media(max-width: 576px){
+    ngb-carousel{
+        img{
+            height: 420px;
+        }
+        .carousel-caption{
+            top: 10%;
+            left: unset;
+            right: unset;
+            h3{
+                font-size: 26px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}

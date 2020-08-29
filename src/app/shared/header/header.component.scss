@@ -75,3 +75,18 @@
     background: unset;
   }
 }
+
+
+
+@media(max-width: 576px){
+
+  .discounttext{
+    font-size: 10px
+  }
+ .mobile-off{
+   display: none!important;
+ }
+ .logo{
+   margin: 0 auto;
+ }
+}

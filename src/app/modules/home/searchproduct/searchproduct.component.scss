@@ -136,3 +136,55 @@
 .margin-minus{
   margin-top: -50px;
 }
+
+
+@media(max-width: 576px){
+  .card{
+    h3{
+      font-size: 14px;
+    }
+    .searchpro{
+      padding: 9px 9px;
+      font-size: 14px;
+    }
+    .selectdesign{
+      font-size: 12px;
+      height: 38px;
+    }
+  }
+  .mobile-off{
+    display: none!important;
+  }
+  .mobile-on-f{
+    display: flex!important;
+  }
+  .looking {
+    .lookingfor{
+      font-size: 26px;
+      padding: 20px 30px;
+    }
+    .productcard {
+      .typetxt{
+        font-size: 14px;
+      }
+      .coiltxt{
+        font-size: 14px;
+
+      }
+    }
+  }
+  .productcard{
+    margin-top: 10px;
+  }
+  .productimg{
+    img {
+      height: 244px;
+      object-fit: cover!important;
+    }
+  }
+  .looking{
+    .viewbtn{
+      font-size: 14px;
+    }
+  }
+}

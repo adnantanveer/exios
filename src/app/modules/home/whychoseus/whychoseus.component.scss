@@ -55,7 +55,7 @@
 
   .count{
       background: #1f99a0;
-      .col-md-4{
+      .cardbordr{
         border-image: linear-gradient(to top, #ffff, rgba(0, 0, 0, 0)) 1 100%,;
 
         border-width: 1px;
@@ -95,4 +95,30 @@
         line-height: 0.8;
         color: #ffffff;
       }
+  }
+
+  @media(max-width: 576px){
+    .whychossetxt{
+      font-size: 30px;
+    }
+    .des{
+      margin-bottom: 10px;
+    }
+    .viewbtn{
+      margin: 20px;
+    }
+    .count{
+      .container{
+        padding: 25px 0px;
+      }
+    }
+    .destxt{
+      margin-bottom: 20px!important;
+      font-size: 16px;
+    }
+    .count{
+      .counttxt{
+        font-size: 26px;
+      }
+    }
   }
